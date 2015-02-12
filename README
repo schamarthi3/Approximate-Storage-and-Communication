@@ -1,0 +1,10 @@
+1> Compile Options 
+
+Compile options (without optimization) : gcc -o object_name test.c approx_lib.h approx_lib.c 
+
+Compile options (with O3 optimization) : gcc -o object_name -O3 test.c approx_lib.h approx_lib.c
+
+2> Object dump options 
+
+objdump -S object_name > file_name.asm
+
